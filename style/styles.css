@@ -1,0 +1,61 @@
+/* REGOLE GENERALI */
+* {
+  margin: 0;
+  boxsizing: border-box;
+}
+/* STRUTTURA DELLA PAGINA */
+body {
+  width: 80%;
+  margin: 0 auto;
+}
+#main-header {
+height: 300px;
+background-color: red;
+}
+#barra-nav {
+  background: grey;
+  text-align: center;
+  line-height: 80px;
+}
+#elementi-nav {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+#elementi-nav li {
+  list-style: none;
+  display: inline-block;
+}
+#elementi-nav li a {
+  padding:0 15px;
+}
+.container {
+
+}
+.colonna-sx {
+  float: left;
+  height: 300px;
+  width: calc(100%/3);
+  background: violet;
+}
+.colonna-center {
+  float: left;
+  width: calc(100%/3);
+  background: green;
+  height: 200px;
+}
+.colonna-right {
+  width: calc(100%/3);
+  float: left;
+  background: black;
+  height: 250px;
+}
+
+footer {
+  background: yellow;
+}
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
