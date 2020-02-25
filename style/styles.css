@@ -128,6 +128,8 @@ font-family: 'Montserrat';
 .fa-rss-square {
   color: orange;
   font-size: 30px;
+  float: left;
+  margin-right: 5px;
 }
 
 /*STRUTTURA DEL FOOTER */
