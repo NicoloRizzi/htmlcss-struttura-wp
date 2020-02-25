@@ -91,25 +91,38 @@ font-family: 'Montserrat';
   width: 100%;
   background: white;
   margin-bottom: 30px;
+  border-radius: 10px;
 }
 .box h4 {
   padding-bottom: 20px;
-  font-size: 20px;
-  width: 100%
+  font-size: 21px;
 }
-.box p {
-  padding: 10px;
+.text-green p {
+  color: green;
+  padding-bottom:10px;
+}
+.fas {
+  font-size: 20px;
 }
 
-}
 /*STRUTTURA DEL FOOTER */
-footer {
-  background: white;
-  height: 40px;
-  font-size: 15px;
+.main-footer {
+  height: auto;
+  background-color: white;
+}
+.main-footer span {
+font-style: italic;
+font-size: 20px;
+margin-bottom: 20px;
+text-align: center;
+
 }
 .socials li {
-  text-decoration: none;
+  padding: 0 0 0 100px;
+  list-style: none;
+  float: left;
+  width: calc(100%/3);
+  font-size: 40px;
 }
 /*FUNZIONE CLEARFIX */
 .clearfix::after {
