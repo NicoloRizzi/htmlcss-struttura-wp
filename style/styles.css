@@ -85,6 +85,7 @@ font-family: 'Montserrat';
 .colonna:nth-child(3) {;
   width: 20%;
 }
+/* STRUTTURA DEI BOX */
 .box {
   padding: 10px;
   text-align: left;
@@ -114,9 +115,9 @@ font-family: 'Montserrat';
 font-style: italic;
 font-size: 20px;
 margin-bottom: 20px;
-text-align: center;
 
 }
+
 .socials li {
   padding: 0 0 0 100px;
   list-style: none;
@@ -124,6 +125,7 @@ text-align: center;
   width: calc(100%/3);
   font-size: 40px;
 }
+
 /*FUNZIONE CLEARFIX */
 .clearfix::after {
   content: '';
