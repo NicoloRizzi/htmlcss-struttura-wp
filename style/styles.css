@@ -114,7 +114,9 @@ font-family: 'Montserrat';
 .main-footer span {
 font-style: italic;
 font-size: 20px;
-margin-bottom: 20px;
+width: 100%;
+text-align: center;
+display: inline-block;
 
 }
 
