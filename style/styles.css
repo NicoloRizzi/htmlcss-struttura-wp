@@ -3,16 +3,21 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 body {
   background-image:url(../immagini/background-pagina.png);
 }
+
 /* STRUTTURA DELLA PAGINA */
+
 #container {
   margin: 0 auto;
-  width: 80%;
+  width: 1000px;
   font-family: 'Roboto';
 }
+
 /* STRUTTURA MAIN HEADER */
+
 #main-header {
 border: 7px solid white;
 margin: 15px 0 15px 0;
@@ -30,8 +35,8 @@ font-family: 'Montserrat';
 
 .hero img {
   width: 100%;
-
 }
+
 .hero h1 {
   text-align: center;
   color: white;
@@ -39,21 +44,27 @@ font-family: 'Montserrat';
   padding-bottom: 30px;
   font-size: 30px;
 }
+
 /*STRUTTURA BARRA NAV */
+
 #barra-nav {
   background: grey;
   text-align: center;
   margin-bottom: 20px;
   line-height: 40px;
 }
+
 /*STRUTTURA DEGLI ELEMENTI NELLA NAV */
+
 #elementi-nav {
   display: inline-block;
   margin: 0;
   padding: 0;
   text-shadow:
 }
+
 /*STRUTTRA ELEMENTI DELLA LISTA NAV */
+
 #elementi-nav li {
   list-style: none;
   display: inline-block;
@@ -61,31 +72,39 @@ font-family: 'Montserrat';
   text-transform: uppercase;
   font-family: 'Montserrat';
 }
+
 #elementi-nav li a {
   text-decoration: none;
   color: white;
 }
 
 /* STRUTTURA DELLA LARGHEZZA COLONNA */
+
 .colonna {
   float: left;
-
-
 }
+
 /* STRUTTURA DELLA PRIMA COLONNA SINISTRA */
+
 .colonna:nth-child(1) {
   width: 20%;
 }
+
 /* STRUTTURA DELLA SECONDA COLONNA CENTRALE */
+
 .colonna:nth-child(2) {
   width: 50%;
   margin: 0 5%;
 }
+
 /* STRUTTURA DELLA TERZA COLONNA DESTRA */
+
 .colonna:nth-child(3) {;
   width: 20%;
 }
+
 /* STRUTTURA DEI BOX */
+
 .box {
   padding: 10px;
   text-align: left;
@@ -94,30 +113,36 @@ font-family: 'Montserrat';
   margin-bottom: 30px;
   border-radius: 10px;
 }
+
 .box h4 {
   padding-bottom: 20px;
   font-size: 21px;
+  vertical-align: middle;
 }
+
 .text-green p {
   color: green;
   padding-bottom:10px;
 }
-.fas {
-  font-size: 20px;
+
+.fa-rss-square {
+  color: orange;
+  font-size: 30px;
 }
 
 /*STRUTTURA DEL FOOTER */
+
 .main-footer {
   height: auto;
   background-color: white;
 }
+
 .main-footer span {
 font-style: italic;
 font-size: 20px;
 width: 100%;
 text-align: center;
 display: inline-block;
-
 }
 
 .socials li {
